@@ -152,7 +152,7 @@ main .main-buttons button:hover {
 }
 .Pais p {
     color:#5f6368 ;
-} */
+}  */
 
 
 /* FOOTER */
@@ -182,8 +182,13 @@ footer #footer-right {
     justify-self: right;
     padding-right: 15px;
 }
-#footer-right #tab-preference {
-    
+footer .tab-preference {
+    position: absolute;
+    background-color: #bdc1c6;
+    margin-bottom: 23rem;
+    display: flex;
+    width: 15rem;
+    height: 15rem;
 }
 footer ul li a {
     padding: 10px;
