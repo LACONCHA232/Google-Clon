@@ -218,7 +218,7 @@ footer .tab-preference li {
 
 /* PESTA;A DE LAS CUENTAS O PERFIL */
 .Tab-account {
-    height: 37rem;
+    height: 60rem;
     width: 40rem;
     background-color: lightgray;
     border-radius: 5rem;
@@ -226,6 +226,7 @@ footer .tab-preference li {
     right: 0;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
     margin-right: 3rem;
+    padding-left: 2rem ;
 }
 .nav-accounts {
     display: flex;
@@ -256,10 +257,18 @@ footer .tab-preference li {
     background-color:lightgray;
 }
 .accounts{
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
+}
+
+.show-accounts {
+    width: 35rem;
+    height: 6rem;
+    border-radius: 5rem;
+    font-size: 1.4rem;
+    background-color: white;
+    text-align: start;
 }
 .accounts button{
     width: 35rem;
@@ -269,7 +278,6 @@ footer .tab-preference li {
     background-color: white;
     text-align: start;
 }
-
 .Politic-Privacy  ul{
     display: flex;
     justify-content:space-around;
